@@ -6,7 +6,7 @@ year: 2020
 /* Vou ir colocando o CSS da HOME todo aqui, 
 depois refatoramos, talkey?*/
 
-/* Shared */
+/* Shared Items */
 * {
     font-size: 1rem;
 }
@@ -19,7 +19,6 @@ depois refatoramos, talkey?*/
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
-    margin: 1rem auto;
 }
 
 .subtitle{
@@ -30,6 +29,17 @@ depois refatoramos, talkey?*/
     margin: 1rem auto 0;
 }
 .description{}
+
+
+/* Shared */
+.packs,
+.workflow,
+.clients,
+.us,
+.faq,
+.team {
+    padding: 6rem 0;
+}
 
 /* Main */
 .main {
@@ -89,13 +99,13 @@ depois refatoramos, talkey?*/
 .packs-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3.5rem;
-    padding: 7rem;
+    grid-gap: 2.5rem;
+    padding: 5rem 7rem 2rem;
 }
 
 .packs-card{
     background-color: #7FF6E6;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
 }
 
